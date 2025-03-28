@@ -372,19 +372,19 @@ const Footer = () => {
     </div>
     <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
       <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-2/3 lg:w-1/2">
-              <div className="my-1">
-                <div className="-mx-3 flex items-center justify-center md:justify-start">
+          <div className=" flex flex-col flex-wrap justify-center items-center">
+            <div className="w-full md:w-2/3 lg:w-1/2">
+              <div className="my-1 py-4 md:py-2">
+                <div className=" w-full flex items-center justify-center md:justify-center space-x-6">
                   <button
                     onClick={() => setIsPopupOpenprivacy(true)}
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="text-base text-gray-7 hover:text-primary transition-colors duration-200 px-3 py-1 rounded"
                   >
                     Privacy policy
                   </button>
                   <button
                     onClick={() => setIsPopupOpenlegal(true)}
-                    className="px-3 mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="text-base text-gray-7 hover:text-primary transition-colors duration-200 px-3 py-1 rounded"
                   >
                     Legal notice
                   </button>
@@ -443,12 +443,12 @@ const Footer = () => {
                 </div>
               )}
             </div>
-            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
-              <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-base text-gray-7">
+            <div className="w-full px-4 md:w-1/3 lg:w-1/2 flex justify-start">
+              <div className="my-1 flex justify-start md:justify-end py-4 md:py-2">
+                <p className="text-base text-center text-gray-7">
                   © {new Date().getFullYear()} - Designed and Developed by{" "}
                   <a
-                    href="https://github.com/DEVRhylme-Foundation"
+                    href="https://github.com/DEVRhylme-Foundation hover:text-primary transition-colors duration-200"
                     rel="nofollow noopner noreferrer"
                     target="_blank"
                     className="text-gray-1 hover:underline"
