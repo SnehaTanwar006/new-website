@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 1. After deploying the project on Vercel, **clone the repository**:
    ```bash
-   git clone https://github.com/USERNAME/devrhylme-saas-website.git
+   git clone https://github.com/DEVRhylme-Foundation/new-website.git
    cd devrhylme-saas-website
    ```
 
